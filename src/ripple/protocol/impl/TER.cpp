@@ -89,7 +89,9 @@ bool transResultInfo (TER code, std::string& token, std::string& text)
         { telFAILED_PROCESSING,      { "telFAILED_PROCESSING",     "Failed to correctly process transaction."                                      } },
         { telINSUF_FEE_P,            { "telINSUF_FEE_P",           "Fee insufficient."                                                             } },
         { telNO_DST_PARTIAL,         { "telNO_DST_PARTIAL",        "Partial payment to create account not allowed."                                } },
-        { telCAN_NOT_QUEUE,          { "telCAN_NOT_QUEUE",         "Can not queue at this time." } },
+        { telCAN_NOT_QUEUE,          { "telCAN_NOT_QUEUE",         "Can not queue at this time."                                                   } },
+        { telNOT_AUTHORIZED,         { "telNOT_AUTHORIZED",        "Not authorized to submit transactions to this server."                         } },
+        { telPENDING_VERIFICATION,   { "telPENDING_VERIFICATION",  "Transaction will be auto-submitted after verification."                        } },
 
         { temMALFORMED,              { "temMALFORMED",             "Malformed transaction."                                                        } },
         { temBAD_AMOUNT,             { "temBAD_AMOUNT",            "Can only send positive amounts."                                               } },
