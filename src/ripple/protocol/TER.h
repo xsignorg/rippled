@@ -46,6 +46,8 @@ enum TER
     telINSUF_FEE_P,
     telNO_DST_PARTIAL,
     telCAN_NOT_QUEUE,
+    telNOT_AUTHORIZED,
+    telPENDING_VERIFICATION,
 
     // -299 .. -200: M Malformed (bad signature)
     // Causes:
